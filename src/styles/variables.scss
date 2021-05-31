@@ -1,0 +1,10 @@
+$color-bg: #C0CAAB;
+$color-bg-light: #A8B17B;
+$color-bg-dark: #717A62;
+$color-fg: #3A3C20;
+$color-none: rgba(#000, 0);
+
+$gradient-bg: no-repeat radial-gradient($color-bg-light, $color-bg, $color-bg-light);
+$font-family: VT323;
+$font-size-md: 1.5rem;
+$border-radius: 4px;

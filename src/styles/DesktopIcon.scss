@@ -1,0 +1,33 @@
+@import "./variables.scss";
+
+.desktop-icon {
+  border: none;
+  color: $color-fg;
+  border: 2px solid $color-none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 4em;
+  height: 4em;
+  background: none;
+
+  &:hover {
+    background: none;
+    color: $color-fg;
+    border: 2px dashed $color-fg;
+  }
+
+  &:active {
+    color: $color-bg;
+    background: $color-fg;
+    svg {
+      fill: $color-bg;
+    }
+  }
+  
+}
+
+.desktop-icon__icon {
+  font-size: 1.75em;
+}
